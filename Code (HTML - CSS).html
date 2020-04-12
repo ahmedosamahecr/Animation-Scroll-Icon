@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <style>
+      div {
+        padding: 20px 10px;
+        border: 2px solid red;
+        border-radius: 20px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        animation: ahmed 2s infinite ease-in-out;
+      }
+      div a::after {
+        content: "";
+        background-color: #8c0000;
+        position: absolute;
+        top: 50%;
+        border-radius: 50px;
+        left: 30%;
+        width: 8px;
+        height: 15px;
+      }
+      @keyframes ahmed {
+        0% {
+          top: 35px;
+        }
+        30% {
+          top: 10px;
+        }
+        43% {
+          top: 35px;
+        }
+        58% {
+          top: 15px;
+        }
+        73% {
+          top: 35px;
+        }
+        87% {
+          top: 20px;
+        }
+
+        100% {
+          top: 35px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#"></a>
+    </div>
+  </body>
+</html>
